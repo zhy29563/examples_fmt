@@ -1,0 +1,13 @@
+# VSCODE
+/.vscode/
+/build*/
+
+# CLION
+/.idea/
+/cmake-build-*/
+
+# QTCREATOR
+/CMakeLists.txt.user
+
+/libs*/
+/external_projects*/

@@ -1,0 +1,33 @@
+########################################################################################################################
+# 1. Suppressing Undesired Diagnostics
+#   NOLINT
+#   NOLINTNEXTLINE
+#   NOLINTBEGIN … NOLINTEND
+########################################################################################################################
+---
+Checks:
+  - -checks=-*
+  - clang-analyzer-*
+  - google-*
+  - bugprone-*
+  - -bugprone-easily-swappable-parameters
+  - cert-*
+  - readability-*
+  - -readability-magic-numbers
+  - -readability-identifier-length
+WarningsAsErrors: ''
+HeaderFileExtensions:
+  - ''
+  - h
+  - hh
+  - hpp
+  - hxx
+ImplementationFileExtensions:
+  - c
+  - cc
+  - cpp
+  - cxx
+HeaderFilterRegex: ''
+FormatStyle:     file
+...
+
